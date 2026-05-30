@@ -1,0 +1,46 @@
+:root {
+  color-scheme: light;
+
+  /* Palette Basilico */
+  --foglia-50:  #E3EFEC;
+  --foglia-100: #C8DED9;
+  --foglia-500: #1F5C52;
+  --foglia-600: #1A4D45;
+  --foglia-800: #103A33;
+  --foglia-900: #0E2D27;
+
+  --pomodoro-50:  #FFEEE9;
+  --pomodoro-100: #FFD7C9;
+  --pomodoro-500: #FF7A5C;
+  --pomodoro-600: #E0654A;
+  --pomodoro-700: #B84F38;
+
+  --cream-50:  #FAFBF9;
+  --cream-100: #F4F5F2;
+  --cream-200: #ECEEEB;
+  --cream-300: #D8DBD7;
+  --cream-400: #B0B5B1;
+  --cream-500: #8A8F8C;
+  --cream-600: #5A6663;
+  --cream-700: #3D4541;
+  --cream-800: #14201D;
+
+  --font-display: 'Fraunces', Georgia, 'Times New Roman', serif;
+  --font-body:    'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+
+  --r-xs: 4px;
+  --r-sm: 8px;
+  --r-md: 12px;
+  --r-lg: 16px;
+  --r-full: 999px;
+
+  --shadow-sm: 0 1px 4px rgba(20,30,28,0.06);
+  --shadow-md: 0 4px 16px rgba(20,30,28,0.08);
+  --shadow-lg: 0 8px 32px rgba(20,30,28,0.12);
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+html { scroll-behavior: smooth; }
+html, body { font-family: var(--font-body); color: var(--cream-800); background: var(--cream-100); }
+button { font-family: inherit; cursor: pointer; }
+a { color: inherit; text-decoration: none; }

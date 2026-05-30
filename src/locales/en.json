@@ -1,0 +1,137 @@
+{
+  "nav": {
+    "cta": "Inizia gratis",
+    "login": "Accedi",
+    "howItWorks": "Come funziona",
+    "catalog": "Ricettario",
+    "faq": "FAQ"
+  },
+  "hero": {
+    "tag": "Pianifica la settimana",
+    "title": "Organizza\nla settimana.\nLibera la testa.",
+    "sub": "Pianifichi pranzo e cena una volta. La lista della spesa si crea da sola: esatta, senza sprechi. E smetti di chiederti \"cosa cucino?\" ogni sera.",
+    "cta": "Inizia gratis →",
+    "anchor": "Vedi come funziona ↓",
+    "social": "Gratuita · Nessuna carta richiesta",
+    "phone": {
+      "wm": "weekset",
+      "gen": "✦ Genera",
+      "tabs": ["Menu", "Spesa", "Ricette"],
+      "days": [
+        { "name": "Lunedì 2 giugno", "lunch": "🍝 Pasta al pomodoro", "dinner": "🥗 Insalata di farro" },
+        { "name": "Martedì 3 giugno", "lunch": "🍲 Zuppa di legumi", "dinner": "🐟 Salmone al forno" }
+      ],
+      "empty": "✦ Genera pasto",
+      "emptyDay": "Mercoledì 4 giugno",
+      "lunchLabel": "Pranzo",
+      "dinnerLabel": "Cena"
+    }
+  },
+  "stats": [
+    { "num": "14", "label": "Pasti pianificati" },
+    { "num": "1", "label": "Lista della spesa" },
+    { "num": "0", "label": "Sprechi nel frigo" }
+  ],
+  "how": {
+    "label": "Come funziona",
+    "title": "Una decisione la domenica.\nSette giorni risolti.",
+    "sub": "Tre passi rapidi. Poi non ci pensi più fino alla settimana dopo.",
+    "step1": {
+      "title": "Scegli pranzo e cena per la settimana",
+      "desc": "Aggiungi ricette dal ricettario in un tap, o usa quelle che hai già salvato. Quattordici pasti decisi una volta sola."
+    },
+    "step2": {
+      "title": "La lista della spesa si crea esatta",
+      "desc": "weekset somma gli ingredienti e scala le porzioni sulla tua famiglia. Compri solo quello che ti serve: niente cibo che marcisce in frigo, niente soldi buttati."
+    },
+    "step3": {
+      "title": "Fai la spesa coordinata in famiglia",
+      "desc": "Ognuno spunta quello che prende: la lista si aggiorna in tempo reale per tutti. Stop doppioni, stop messaggi \"hai preso il pane?\""
+    },
+    "mock": {
+      "menu": "Menu",
+      "shopping": "Lista della spesa",
+      "atSupermarket": "Al supermercato",
+      "category1": "Frutta e verdura",
+      "category2": "Pane e cereali",
+      "items": [
+        { "name": "Pomodori", "qty": "500g" },
+        { "name": "Basilico", "qty": "1 mazzo" },
+        { "name": "Limoni", "qty": "2" },
+        { "name": "Pasta", "qty": "500g" },
+        { "name": "Farro", "qty": "300g" }
+      ],
+      "progress": "9 di 17"
+    }
+  },
+  "catalog": {
+    "label": "Il ricettario",
+    "title": "92 ricette quotidiane.\nIn un tap.",
+    "sub": "Non un ricettario gourmet. La cucina di casa, già pronta da aggiungere al menu. Modifichi quello che vuoi: diventa tua.",
+    "add": "+ Aggiungi",
+    "added": "Aggiunta",
+    "recipes": [
+      { "name": "Pasta al pomodoro", "type": "Primo", "time": "15 min", "servings": "4 porzioni", "state": "add" },
+      { "name": "Pollo al limone", "type": "Secondo", "time": "25 min", "servings": "4 porzioni", "state": "add" },
+      { "name": "Insalata di farro", "type": "Primo", "time": "20 min", "servings": "4 porzioni", "state": "added" }
+    ],
+    "cuisines": {
+      "active": "Italiana",
+      "soon": "presto",
+      "list": ["Spagnola", "Francese", "Greca"],
+      "suggest": "+ Suggerisci →"
+    }
+  },
+  "features": {
+    "label": "Funzionalità",
+    "title": "Tutto quello che serve.\nNiente che distrae.",
+    "items": [
+      {
+        "icon": "calendar",
+        "title": "Menu settimanale",
+        "desc": "Pianifica i 7 giorni. Copia e incolla settimane intere quando si ripete il ritmo di casa."
+      },
+      {
+        "icon": "lightning",
+        "title": "Niente sprechi",
+        "desc": "Quantità calcolate sulle porzioni di casa. Compri quello che cucini davvero; niente sacchetti dimenticati a marcire."
+      },
+      {
+        "icon": "house",
+        "title": "Spesa condivisa",
+        "desc": "Codice invito di 8 caratteri. La famiglia spunta gli articoli in tempo reale: niente doppi acquisti, niente messaggi."
+      },
+      {
+        "icon": "sparkle",
+        "title": "✦ Import con AI",
+        "desc": "Aggiungi una ricetta da testo, foto o messaggio vocale. weekset la trasforma in scheda pronta."
+      }
+    ]
+  },
+  "cta": {
+    "tagline": "Pianifica una volta.\nCucina tutta la settimana.",
+    "sub": "Gratuita per chi inizia adesso: senza limiti, per sempre.",
+    "button": "Inizia gratis →",
+    "note": "Nessuna carta · iPhone e Android · 2 minuti per iniziare"
+  },
+  "footer": {
+    "links": {
+      "faq": "FAQ",
+      "privacy": "Privacy",
+      "terms": "Termini",
+      "email": "hello@weekset.app"
+    },
+    "langs": {
+      "it": "Italiano",
+      "en": "English",
+      "es": "Español",
+      "de": "Deutsch",
+      "fr": "Français"
+    }
+  },
+  "faq": {
+    "eyebrow": "FAQ",
+    "title": "FAQ in arrivo",
+    "back": "← Torna alla home"
+  }
+}
