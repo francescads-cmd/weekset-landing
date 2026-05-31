@@ -133,5 +133,9 @@
     "eyebrow": "FAQ",
     "title": "FAQ coming soon",
     "back": "← Back to home"
+  },
+  "meta": {
+    "title": "weekset · Plan your week",
+    "description": "Plan lunch and dinner once. The shopping list builds itself: precise, no waste."
   }
 }

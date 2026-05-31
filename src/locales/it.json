@@ -133,5 +133,9 @@
     "eyebrow": "FAQ",
     "title": "FAQ in arrivo",
     "back": "← Torna alla home"
+  },
+  "meta": {
+    "title": "weekset · Organizza la settimana",
+    "description": "Pianifichi pranzo e cena una volta. La lista della spesa si crea da sola: esatta, senza sprechi."
   }
 }

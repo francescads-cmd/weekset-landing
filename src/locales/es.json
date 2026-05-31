@@ -133,5 +133,9 @@
     "eyebrow": "FAQ",
     "title": "FAQ próximamente",
     "back": "← Volver a inicio"
+  },
+  "meta": {
+    "title": "weekset · Organiza la semana",
+    "description": "Planificas almuerzo y cena una vez. La lista de la compra se crea sola: exacta, sin desperdicios."
   }
 }

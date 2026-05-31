@@ -133,5 +133,9 @@
     "eyebrow": "FAQ",
     "title": "FAQ à venir",
     "back": "← Retour à l'accueil"
+  },
+  "meta": {
+    "title": "weekset · Organise ta semaine",
+    "description": "Tu planifies déjeuner et dîner une fois. La liste de courses se crée toute seule : exacte, sans gaspillage."
   }
 }

@@ -133,5 +133,9 @@
     "eyebrow": "FAQ",
     "title": "FAQ in Kürze",
     "back": "← Zurück zur Startseite"
+  },
+  "meta": {
+    "title": "weekset · Plane die Woche",
+    "description": "Du planst Mittag und Abendessen einmal. Die Einkaufsliste erstellt sich von selbst: genau, ohne Verschwendung."
   }
 }
