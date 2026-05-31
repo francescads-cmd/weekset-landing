@@ -31,8 +31,8 @@ export default function Footer() {
           <span className="footer__wordmark">weekset</span>
           <div className="footer__links">
             <Link to={`/${currentLang}/faq`} className="footer__link">{links.faq}</Link>
-            <a href="#" className="footer__link">{links.privacy}</a>
-            <a href="#" className="footer__link">{links.terms}</a>
+            <a href="https://www.iubenda.com/privacy-policy/67681832" className="iubenda-white iubenda-noiframe iubenda-embed footer__link" target="_blank" rel="noopener noreferrer">{links.privacy}</a>
+            <a href="https://www.iubenda.com/privacy-policy/67681832/cookie-policy" className="iubenda-white iubenda-noiframe iubenda-embed footer__link" target="_blank" rel="noopener noreferrer">{links.cookie}</a>
             <a href={`mailto:${links.email}`} className="footer__link">{links.email}</a>
           </div>
         </div>
