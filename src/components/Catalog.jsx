@@ -20,9 +20,11 @@ export default function Catalog() {
               key={i}
               className={`recipe-card${recipe.state === 'added' ? ' recipe-card--added' : ''}`}
             >
-              <div className="recipe-card__type">{recipe.type}</div>
-              <div className="recipe-card__name">{recipe.name}</div>
-              <div className="recipe-card__meta">{recipe.time} · {recipe.servings}</div>
+              <div className="recipe-card__info">
+                <div className="recipe-card__type">{recipe.type}</div>
+                <div className="recipe-card__name">{recipe.name}</div>
+                <div className="recipe-card__meta">{recipe.time} · {recipe.servings}</div>
+              </div>
               {recipe.state === 'added' ? (
                 <button className="recipe-card__btn recipe-card__btn--added" disabled>
                   ✓ {t('catalog.added')}

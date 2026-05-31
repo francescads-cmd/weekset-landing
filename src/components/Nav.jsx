@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { Link, useParams, useNavigate, useLocation } from 'react-router-dom';
 import { useTranslation } from 'react-i18next';
 import SteamSetLogo from './SteamSetLogo';
-import { SUPPORTED_LANGS, APP_URL } from '../config';
+import { SUPPORTED_LANGS, SIGNUP_URL, LOGIN_URL } from '../config';
 
 function useLangSwitch() {
   const navigate = useNavigate();
@@ -61,7 +61,7 @@ export default function Nav() {
             )}
           </div>
 
-          <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="btn btn--primary nav__cta">
+          <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer" className="btn btn--primary nav__cta">
             {t('nav.cta')}
           </a>
 
@@ -86,7 +86,7 @@ export default function Nav() {
           >
             ✕
           </button>
-          <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="nav__drawer-link" onClick={() => setMenuOpen(false)}>
+          <a href={LOGIN_URL} target="_blank" rel="noopener noreferrer" className="nav__drawer-link" onClick={() => setMenuOpen(false)}>
             {t('nav.login')}
           </a>
           <a
@@ -118,7 +118,7 @@ export default function Nav() {
           >
             {t('nav.faq')}
           </Link>
-          <a href={APP_URL} target="_blank" rel="noopener noreferrer" className="btn btn--primary nav__drawer-cta" onClick={() => setMenuOpen(false)}>
+          <a href={SIGNUP_URL} target="_blank" rel="noopener noreferrer" className="btn btn--primary nav__drawer-cta" onClick={() => setMenuOpen(false)}>
             {t('nav.cta')}
           </a>
         </div>

@@ -55,6 +55,13 @@ const ICON_COLORS = {
   sparkle: 'var(--pomodoro-500)',
 };
 
+const ICON_BG = {
+  calendar: 'var(--foglia-50)',
+  lightning: 'var(--pomodoro-50)',
+  house: 'var(--foglia-50)',
+  sparkle: 'var(--pomodoro-50)',
+};
+
 export default function Features() {
   const { t } = useTranslation();
   const items = t('features.items', { returnObjects: true });
@@ -69,7 +76,7 @@ export default function Features() {
         <div className="features__grid">
           {items.map((item, i) => (
             <div key={i} className="feature-card">
-              <div className="feature-card__icon">
+              <div className="feature-card__icon" style={{ background: ICON_BG[item.icon] }}>
                 {ICONS[item.icon] ? ICONS[item.icon](ICON_COLORS[item.icon]) : null}
               </div>
               <h3 className="feature-card__title">{item.title}</h3>

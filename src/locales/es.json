@@ -1,124 +1,124 @@
 {
   "nav": {
-    "cta": "Inizia gratis",
-    "login": "Accedi",
-    "howItWorks": "Come funziona",
-    "catalog": "Ricettario",
+    "cta": "Empieza gratis",
+    "login": "Iniciar sesión",
+    "howItWorks": "Cómo funciona",
+    "catalog": "Recetario",
     "faq": "FAQ"
   },
   "hero": {
-    "tag": "Pianifica la settimana",
-    "title": "Organizza\nla settimana.\nLibera la testa.",
-    "sub": "Pianifichi pranzo e cena una volta. La lista della spesa si crea da sola: esatta, senza sprechi. E smetti di chiederti \"cosa cucino?\" ogni sera.",
-    "cta": "Inizia gratis →",
-    "anchor": "Vedi come funziona ↓",
-    "social": "Gratuita · Nessuna carta richiesta",
+    "tag": "Planifica tu semana",
+    "title": "Organiza la semana.\nLibera la mente.",
+    "sub": "Planificas almuerzo y cena una vez. La lista de la compra se crea sola: exacta, sin desperdicios. Y dejas de preguntarte \"¿qué cocino?\" cada noche.",
+    "cta": "Empieza gratis →",
+    "anchor": "Mira cómo funciona ↓",
+    "social": "Gratis · Sin tarjeta de crédito",
     "phone": {
       "wm": "weekset",
       "gen": "✦ Genera",
-      "tabs": ["Menu", "Spesa", "Ricette"],
+      "tabs": ["Menú", "Compra", "Recetas"],
       "days": [
-        { "name": "Lunedì 2 giugno", "lunch": "🍝 Pasta al pomodoro", "dinner": "🥗 Insalata di farro" },
-        { "name": "Martedì 3 giugno", "lunch": "🍲 Zuppa di legumi", "dinner": "🐟 Salmone al forno" }
+        { "name": "Lunes 2 junio", "lunch": "🍝 Pasta al pomodoro", "dinner": "🥗 Ensalada de farro" },
+        { "name": "Martes 3 junio", "lunch": "🍲 Sopa de legumbres", "dinner": "🐟 Salmón al horno" }
       ],
-      "empty": "✦ Genera pasto",
-      "emptyDay": "Mercoledì 4 giugno",
-      "lunchLabel": "Pranzo",
+      "empty": "✦ Genera comida",
+      "emptyDay": "Miércoles 4 junio",
+      "lunchLabel": "Almuerzo",
       "dinnerLabel": "Cena"
     }
   },
   "stats": [
-    { "num": "14", "label": "Pasti pianificati" },
-    { "num": "1", "label": "Lista della spesa" },
-    { "num": "0", "label": "Sprechi nel frigo" }
+    { "num": "14", "label": "Comidas planificadas" },
+    { "num": "1", "label": "Lista de la compra" },
+    { "num": "0", "label": "Desperdicios en la nevera" }
   ],
   "how": {
-    "label": "Come funziona",
-    "title": "Una decisione la domenica.\nSette giorni risolti.",
-    "sub": "Tre passi rapidi. Poi non ci pensi più fino alla settimana dopo.",
+    "label": "Cómo funciona",
+    "title": "Una decisión el domingo.\nSiete días resueltos.",
+    "sub": "Tres pasos rápidos. Luego no piensas más hasta la semana siguiente.",
     "step1": {
-      "title": "Scegli pranzo e cena per la settimana",
-      "desc": "Aggiungi ricette dal ricettario in un tap, o usa quelle che hai già salvato. Quattordici pasti decisi una volta sola."
+      "title": "Elige almuerzo y cena para la semana",
+      "desc": "Añade recetas del recetario en un toque, o usa las que ya has guardado. Catorce comidas decididas de una vez."
     },
     "step2": {
-      "title": "La lista della spesa si crea esatta",
-      "desc": "weekset somma gli ingredienti e scala le porzioni sulla tua famiglia. Compri solo quello che ti serve: niente cibo che marcisce in frigo, niente soldi buttati."
+      "title": "La lista de la compra se crea exacta",
+      "desc": "weekset suma los ingredientes y ajusta las porciones a tu familia. Compras solo lo que necesitas: nada de comida pudriéndose en la nevera, nada de dinero tirado."
     },
     "step3": {
-      "title": "Fai la spesa coordinata in famiglia",
-      "desc": "Ognuno spunta quello che prende: la lista si aggiorna in tempo reale per tutti. Stop doppioni, stop messaggi \"hai preso il pane?\""
+      "title": "Haz la compra coordinada en familia",
+      "desc": "Cada uno marca lo que coge: la lista se actualiza en tiempo real para todos. Sin duplicados, sin mensajes de \"¿has comprado el pan?\""
     },
     "mock": {
-      "menu": "Menu",
-      "shopping": "Lista della spesa",
-      "atSupermarket": "Al supermercato",
-      "category1": "Frutta e verdura",
-      "category2": "Pane e cereali",
+      "menu": "Menú",
+      "shopping": "Lista de la compra",
+      "atSupermarket": "En el supermercado",
+      "category1": "Frutas y verduras",
+      "category2": "Pan y cereales",
       "items": [
-        { "name": "Pomodori", "qty": "500g" },
-        { "name": "Basilico", "qty": "1 mazzo" },
-        { "name": "Limoni", "qty": "2" },
+        { "name": "Tomates", "qty": "500g" },
+        { "name": "Albahaca", "qty": "1 manojo" },
+        { "name": "Limones", "qty": "2" },
         { "name": "Pasta", "qty": "500g" },
         { "name": "Farro", "qty": "300g" }
       ],
-      "progress": "9 di 17"
+      "progress": "9 de 17"
     }
   },
   "catalog": {
-    "label": "Il ricettario",
-    "title": "92 ricette quotidiane.\nIn un tap.",
-    "sub": "Non un ricettario gourmet. La cucina di casa, già pronta da aggiungere al menu. Modifichi quello che vuoi: diventa tua.",
-    "add": "+ Aggiungi",
-    "added": "Aggiunta",
+    "label": "El recetario",
+    "title": "92 recetas del día a día.\nEn un toque.",
+    "sub": "No es un recetario gourmet. La cocina de casa, lista para añadir al menú. Modifica lo que quieras: se convierte en tuya.",
+    "add": "+ Añadir",
+    "added": "Añadida",
     "recipes": [
-      { "name": "Pasta al pomodoro", "type": "Primo", "time": "15 min", "servings": "4 porzioni", "state": "add" },
-      { "name": "Pollo al limone", "type": "Secondo", "time": "25 min", "servings": "4 porzioni", "state": "add" },
-      { "name": "Insalata di farro", "type": "Primo", "time": "20 min", "servings": "4 porzioni", "state": "added" }
+      { "name": "Pasta al pomodoro", "type": "Primer plato", "time": "15 min", "servings": "4 porciones", "state": "add" },
+      { "name": "Pollo al limón", "type": "Segundo plato", "time": "25 min", "servings": "4 porciones", "state": "add" },
+      { "name": "Ensalada de farro", "type": "Primer plato", "time": "20 min", "servings": "4 porciones", "state": "added" }
     ],
     "cuisines": {
       "active": "Italiana",
-      "soon": "presto",
-      "list": ["Spagnola", "Francese", "Greca"],
-      "suggest": "+ Suggerisci →"
+      "soon": "pronto",
+      "list": ["Española", "Francesa", "Griega"],
+      "suggest": "+ Sugiere →"
     }
   },
   "features": {
-    "label": "Funzionalità",
-    "title": "Tutto quello che serve.\nNiente che distrae.",
+    "label": "Funcionalidades",
+    "title": "Todo lo que necesitas.\nNada que distraiga.",
     "items": [
       {
         "icon": "calendar",
-        "title": "Menu settimanale",
-        "desc": "Pianifica i 7 giorni. Copia e incolla settimane intere quando si ripete il ritmo di casa."
+        "title": "Menú semanal",
+        "desc": "Planifica los 7 días. Copia y pega semanas enteras cuando se repite el ritmo de casa."
       },
       {
-        "icon": "lightning",
-        "title": "Niente sprechi",
-        "desc": "Quantità calcolate sulle porzioni di casa. Compri quello che cucini davvero; niente sacchetti dimenticati a marcire."
+        "icon": "leaf",
+        "title": "Sin desperdicios",
+        "desc": "Cantidades ajustadas a las porciones de casa. Compras lo que cocinas de verdad; nada de bolsas olvidadas pudriéndose."
       },
       {
         "icon": "house",
-        "title": "Spesa condivisa",
-        "desc": "Codice invito di 8 caratteri. La famiglia spunta gli articoli in tempo reale: niente doppi acquisti, niente messaggi."
+        "title": "Compra compartida",
+        "desc": "Código de invitación de 8 caracteres. La familia marca los artículos en tiempo real: sin compras dobles, sin mensajes."
       },
       {
         "icon": "sparkle",
-        "title": "✦ Import con AI",
-        "desc": "Aggiungi una ricetta da testo, foto o messaggio vocale. weekset la trasforma in scheda pronta."
+        "title": "✦ Import con IA",
+        "desc": "Añade una receta desde texto, foto o mensaje de voz. weekset la convierte en una ficha lista."
       }
     ]
   },
   "cta": {
-    "tagline": "Pianifica una volta.\nCucina tutta la settimana.",
-    "sub": "Gratuita per chi inizia adesso: senza limiti, per sempre.",
-    "button": "Inizia gratis →",
-    "note": "Nessuna carta · iPhone e Android · 2 minuti per iniziare"
+    "tagline": "Planifica una vez.\nCocina toda la semana.",
+    "sub": "Gratis para quien empieza ahora: sin límites, para siempre.",
+    "button": "Empieza gratis →",
+    "note": "Sin tarjeta · iPhone y Android · 2 minutos para empezar"
   },
   "footer": {
     "links": {
       "faq": "FAQ",
-      "privacy": "Privacy",
-      "terms": "Termini",
+      "privacy": "Privacidad",
+      "terms": "Términos",
       "email": "hello@weekset.app"
     },
     "langs": {
@@ -131,7 +131,7 @@
   },
   "faq": {
     "eyebrow": "FAQ",
-    "title": "FAQ in arrivo",
-    "back": "← Torna alla home"
+    "title": "FAQ próximamente",
+    "back": "← Volver a inicio"
   }
 }

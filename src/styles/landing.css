@@ -705,10 +705,16 @@
   background: #fff;
   border: 1px solid var(--cream-200);
   border-radius: var(--r-md);
-  padding: 18px;
+  padding: 14px 18px;
   box-shadow: var(--shadow-sm);
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
+  align-items: center;
+  gap: 12px;
+}
+.recipe-card__info {
+  flex: 1;
+  min-width: 0;
 }
 .recipe-card--added {
   background: var(--foglia-50);
@@ -732,26 +738,26 @@
 .recipe-card__meta {
   font-size: 13px;
   color: var(--cream-600);
-  margin-bottom: 16px;
-  flex: 1;
+  margin-bottom: 0;
 }
 .recipe-card__btn {
-  width: 100%;
-  padding: 9px;
-  border-radius: var(--r-sm);
+  flex-shrink: 0;
+  padding: 8px 16px;
+  border-radius: var(--r-full);
   font-size: 13px;
   font-weight: 600;
   border: none;
   cursor: pointer;
   font-family: var(--font-body);
+  white-space: nowrap;
 }
 .recipe-card__btn--add {
-  background: var(--foglia-500);
+  background: var(--pomodoro-500);
   color: #fff;
   transition: background 0.15s;
 }
 .recipe-card__btn--add:hover {
-  background: var(--foglia-600);
+  background: var(--pomodoro-600);
 }
 .recipe-card__btn--added {
   background: var(--foglia-50);
@@ -807,6 +813,15 @@
     grid-template-columns: 1fr;
     gap: 12px;
   }
+  .recipe-card {
+    flex-direction: column;
+    align-items: stretch;
+    padding: 16px;
+  }
+  .recipe-card__btn {
+    width: 100%;
+    text-align: center;
+  }
 }
 
 /* ── FEATURES ── */
@@ -836,8 +851,12 @@
 }
 .feature-card__icon {
   margin-bottom: 14px;
-  display: flex;
+  display: inline-flex;
   align-items: center;
+  justify-content: center;
+  width: 56px;
+  height: 56px;
+  border-radius: var(--r-md);
 }
 .feature-card__title {
   font-family: var(--font-display);

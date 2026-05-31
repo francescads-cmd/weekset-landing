@@ -1,124 +1,124 @@
 {
   "nav": {
-    "cta": "Inizia gratis",
-    "login": "Accedi",
-    "howItWorks": "Come funziona",
-    "catalog": "Ricettario",
+    "cta": "Start free",
+    "login": "Log in",
+    "howItWorks": "How it works",
+    "catalog": "Recipes",
     "faq": "FAQ"
   },
   "hero": {
-    "tag": "Pianifica la settimana",
-    "title": "Organizza\nla settimana.\nLibera la testa.",
-    "sub": "Pianifichi pranzo e cena una volta. La lista della spesa si crea da sola: esatta, senza sprechi. E smetti di chiederti \"cosa cucino?\" ogni sera.",
-    "cta": "Inizia gratis →",
-    "anchor": "Vedi come funziona ↓",
-    "social": "Gratuita · Nessuna carta richiesta",
+    "tag": "Plan your week",
+    "title": "Plan your week.\nFree your mind.",
+    "sub": "Plan lunch and dinner once. The shopping list builds itself: precise, no waste. And you stop asking yourself \"what's for dinner?\" every night.",
+    "cta": "Start free →",
+    "anchor": "See how it works ↓",
+    "social": "Free · No credit card required",
     "phone": {
       "wm": "weekset",
-      "gen": "✦ Genera",
-      "tabs": ["Menu", "Spesa", "Ricette"],
+      "gen": "✦ Generate",
+      "tabs": ["Menu", "Shopping", "Recipes"],
       "days": [
-        { "name": "Lunedì 2 giugno", "lunch": "🍝 Pasta al pomodoro", "dinner": "🥗 Insalata di farro" },
-        { "name": "Martedì 3 giugno", "lunch": "🍲 Zuppa di legumi", "dinner": "🐟 Salmone al forno" }
+        { "name": "Monday 2 June", "lunch": "🍝 Tomato pasta", "dinner": "🥗 Farro salad" },
+        { "name": "Tuesday 3 June", "lunch": "🍲 Legume soup", "dinner": "🐟 Baked salmon" }
       ],
-      "empty": "✦ Genera pasto",
-      "emptyDay": "Mercoledì 4 giugno",
-      "lunchLabel": "Pranzo",
-      "dinnerLabel": "Cena"
+      "empty": "✦ Generate meal",
+      "emptyDay": "Wednesday 4 June",
+      "lunchLabel": "Lunch",
+      "dinnerLabel": "Dinner"
     }
   },
   "stats": [
-    { "num": "14", "label": "Pasti pianificati" },
-    { "num": "1", "label": "Lista della spesa" },
-    { "num": "0", "label": "Sprechi nel frigo" }
+    { "num": "14", "label": "Meals planned" },
+    { "num": "1", "label": "Shopping list" },
+    { "num": "0", "label": "Wasted groceries" }
   ],
   "how": {
-    "label": "Come funziona",
-    "title": "Una decisione la domenica.\nSette giorni risolti.",
-    "sub": "Tre passi rapidi. Poi non ci pensi più fino alla settimana dopo.",
+    "label": "How it works",
+    "title": "One decision on Sunday.\nSeven days sorted.",
+    "sub": "Three quick steps. Then forget about it until next week.",
     "step1": {
-      "title": "Scegli pranzo e cena per la settimana",
-      "desc": "Aggiungi ricette dal ricettario in un tap, o usa quelle che hai già salvato. Quattordici pasti decisi una volta sola."
+      "title": "Pick lunch and dinner for the week",
+      "desc": "Add recipes from the cookbook in one tap, or use the ones you already saved. Fourteen meals decided once and for all."
     },
     "step2": {
-      "title": "La lista della spesa si crea esatta",
-      "desc": "weekset somma gli ingredienti e scala le porzioni sulla tua famiglia. Compri solo quello che ti serve: niente cibo che marcisce in frigo, niente soldi buttati."
+      "title": "The shopping list builds itself",
+      "desc": "weekset adds up the ingredients and scales portions to your household. You only buy what you need: no food rotting in the fridge, no money thrown away."
     },
     "step3": {
-      "title": "Fai la spesa coordinata in famiglia",
-      "desc": "Ognuno spunta quello che prende: la lista si aggiorna in tempo reale per tutti. Stop doppioni, stop messaggi \"hai preso il pane?\""
+      "title": "Shop together as a family",
+      "desc": "Everyone checks off what they grab: the list updates in real time for all. No duplicates, no more \"did you get the bread?\" messages."
     },
     "mock": {
       "menu": "Menu",
-      "shopping": "Lista della spesa",
-      "atSupermarket": "Al supermercato",
-      "category1": "Frutta e verdura",
-      "category2": "Pane e cereali",
+      "shopping": "Shopping list",
+      "atSupermarket": "At the store",
+      "category1": "Fruit & vegetables",
+      "category2": "Bread & grains",
       "items": [
-        { "name": "Pomodori", "qty": "500g" },
-        { "name": "Basilico", "qty": "1 mazzo" },
-        { "name": "Limoni", "qty": "2" },
+        { "name": "Tomatoes", "qty": "500g" },
+        { "name": "Basil", "qty": "1 bunch" },
+        { "name": "Lemons", "qty": "2" },
         { "name": "Pasta", "qty": "500g" },
         { "name": "Farro", "qty": "300g" }
       ],
-      "progress": "9 di 17"
+      "progress": "9 of 17"
     }
   },
   "catalog": {
-    "label": "Il ricettario",
-    "title": "92 ricette quotidiane.\nIn un tap.",
-    "sub": "Non un ricettario gourmet. La cucina di casa, già pronta da aggiungere al menu. Modifichi quello che vuoi: diventa tua.",
-    "add": "+ Aggiungi",
-    "added": "Aggiunta",
+    "label": "The cookbook",
+    "title": "92 everyday recipes.\nIn one tap.",
+    "sub": "Not a gourmet cookbook. Home cooking, ready to add to your menu. Change anything you like: it becomes yours.",
+    "add": "+ Add",
+    "added": "Added",
     "recipes": [
-      { "name": "Pasta al pomodoro", "type": "Primo", "time": "15 min", "servings": "4 porzioni", "state": "add" },
-      { "name": "Pollo al limone", "type": "Secondo", "time": "25 min", "servings": "4 porzioni", "state": "add" },
-      { "name": "Insalata di farro", "type": "Primo", "time": "20 min", "servings": "4 porzioni", "state": "added" }
+      { "name": "Tomato pasta", "type": "First course", "time": "15 min", "servings": "4 servings", "state": "add" },
+      { "name": "Lemon chicken", "type": "Main course", "time": "25 min", "servings": "4 servings", "state": "add" },
+      { "name": "Farro salad", "type": "First course", "time": "20 min", "servings": "4 servings", "state": "added" }
     ],
     "cuisines": {
-      "active": "Italiana",
-      "soon": "presto",
-      "list": ["Spagnola", "Francese", "Greca"],
-      "suggest": "+ Suggerisci →"
+      "active": "Italian",
+      "soon": "soon",
+      "list": ["Spanish", "French", "Greek"],
+      "suggest": "+ Suggest →"
     }
   },
   "features": {
-    "label": "Funzionalità",
-    "title": "Tutto quello che serve.\nNiente che distrae.",
+    "label": "Features",
+    "title": "Everything you need.\nNothing that distracts.",
     "items": [
       {
         "icon": "calendar",
-        "title": "Menu settimanale",
-        "desc": "Pianifica i 7 giorni. Copia e incolla settimane intere quando si ripete il ritmo di casa."
+        "title": "Weekly menu",
+        "desc": "Plan all 7 days. Copy and paste entire weeks when your household rhythm repeats."
       },
       {
-        "icon": "lightning",
-        "title": "Niente sprechi",
-        "desc": "Quantità calcolate sulle porzioni di casa. Compri quello che cucini davvero; niente sacchetti dimenticati a marcire."
+        "icon": "leaf",
+        "title": "No waste",
+        "desc": "Quantities scaled to your household. You buy what you actually cook; no forgotten bags left to rot."
       },
       {
         "icon": "house",
-        "title": "Spesa condivisa",
-        "desc": "Codice invito di 8 caratteri. La famiglia spunta gli articoli in tempo reale: niente doppi acquisti, niente messaggi."
+        "title": "Shared shopping",
+        "desc": "8-character invite code. The family checks off items in real time: no double buys, no messages."
       },
       {
         "icon": "sparkle",
-        "title": "✦ Import con AI",
-        "desc": "Aggiungi una ricetta da testo, foto o messaggio vocale. weekset la trasforma in scheda pronta."
+        "title": "✦ AI import",
+        "desc": "Add a recipe from text, photo or voice message. weekset turns it into a ready-made card."
       }
     ]
   },
   "cta": {
-    "tagline": "Pianifica una volta.\nCucina tutta la settimana.",
-    "sub": "Gratuita per chi inizia adesso: senza limiti, per sempre.",
-    "button": "Inizia gratis →",
-    "note": "Nessuna carta · iPhone e Android · 2 minuti per iniziare"
+    "tagline": "Plan once.\nCook all week.",
+    "sub": "Free for those who start now: no limits, forever.",
+    "button": "Start free →",
+    "note": "No credit card · iPhone and Android · 2 minutes to start"
   },
   "footer": {
     "links": {
       "faq": "FAQ",
       "privacy": "Privacy",
-      "terms": "Termini",
+      "terms": "Terms",
       "email": "hello@weekset.app"
     },
     "langs": {
@@ -131,7 +131,7 @@
   },
   "faq": {
     "eyebrow": "FAQ",
-    "title": "FAQ in arrivo",
-    "back": "← Torna alla home"
+    "title": "FAQ coming soon",
+    "back": "← Back to home"
   }
 }
