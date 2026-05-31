@@ -999,3 +999,10 @@
     margin-right: 0;
   }
 }
+
+/* iubenda: hide floating TP button and brand badge – not the cookie banner or footer links */
+.iubenda-tp-btn,
+.iubenda-cs-brand,
+[class^="iubenda-"]:not(.footer__link) {
+  display: none !important;
+}
