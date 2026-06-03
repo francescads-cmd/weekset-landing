@@ -1,5 +1,23 @@
 {
   "rewrites": [
+    { "source": "/assets/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/assets/:path*" },
+    { "source": "/manifest.webmanifest", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/manifest.webmanifest" },
+    { "source": "/sw.js", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/sw.js" },
+    { "source": "/registerSW.js", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/registerSW.js" },
+    { "source": "/workbox-:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/workbox-:path*" },
+    { "source": "/icons/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/icons/:path*" },
+    { "source": "/menu/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/menu/:path*" },
+    { "source": "/menu", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/menu" },
+    { "source": "/shopping/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/shopping/:path*" },
+    { "source": "/shopping", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/shopping" },
+    { "source": "/recipes/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/recipes/:path*" },
+    { "source": "/recipes", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/recipes" },
+    { "source": "/settings/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/settings/:path*" },
+    { "source": "/settings", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/settings" },
+    { "source": "/login", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/login" },
+    { "source": "/signup", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/signup" },
+    { "source": "/reset-password/:path*", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/reset-password/:path*" },
+    { "source": "/reset-password", "destination": "https://weekset-git-main-francesca-weekset.vercel.app/reset-password" },
     { "source": "/(.*)", "destination": "/index.html" }
   ]
 }
